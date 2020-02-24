@@ -469,7 +469,7 @@ class _ReorderableListState extends State<ReorderableList>
   }
 
   void _hapticFeedback() {
-    HapticFeedback.lightImpact();
+    //HapticFeedback.lightImpact();
   }
 
   bool _scheduledRebuild = false;
